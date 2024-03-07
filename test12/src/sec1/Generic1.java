@@ -4,7 +4,8 @@ package sec1;
 //<> : 다이아몬드 연산자
 public class Generic1<T> {
 	private T field1;
-
+	public Generic1() {}
+	
 	public Generic1(T field1) {
 		super();
 		this.field1 = field1;
